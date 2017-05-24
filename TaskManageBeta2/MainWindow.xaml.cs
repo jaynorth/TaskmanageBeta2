@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace TaskManageBeta2
 {
     /// <summary>
@@ -23,6 +25,7 @@ namespace TaskManageBeta2
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ProjetViewModel();
         }
     }
 }
