@@ -26,7 +26,7 @@
 
     </Grid.ColumnDefinitions>
 
-        <ComboBox x:Name="comboBoxProjects" ItemsSource="{Binding ListProjects }" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="auto"/>
+        <ComboBox x:Name="comboBoxProjects" ItemsSource="{Binding ListProjects }" SelectedItem="{Binding CurrentProject}" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="auto"/>
     <Label x:Name="label" Content="Name" Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="1" VerticalAlignment="Top"/>
     <TextBox Grid.Column="2" Grid.Row="1" Margin="5" Text="{Binding CurrentProject.Name}"/>
     <Label  Content="Description" Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="2" VerticalAlignment="Top"/>

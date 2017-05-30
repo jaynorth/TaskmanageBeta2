@@ -100,6 +100,7 @@
       <DependentUpon>EntityModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\ProjectViewModel.cs" />
+    <Compile Include="ViewModel\TaskViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="EntityModel.Context.tt">

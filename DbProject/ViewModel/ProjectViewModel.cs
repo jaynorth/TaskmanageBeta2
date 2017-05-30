@@ -33,6 +33,9 @@ namespace Business.ViewModel
             set { _currentProject = value; }
         }
 
+ 
+
+
 
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TaskManageBeta2"
         xmlns:uc1="clr-namespace:TaskManageBeta2.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="700" Width="1000">
     <Grid ShowGridLines="True">
         <Grid.ColumnDefinitions >
             <ColumnDefinition></ColumnDefinition>
@@ -19,6 +19,11 @@
         </Grid.RowDefinitions>
 
         <uc1:ProjectControl Grid.Column="0" Grid.Row="1"></uc1:ProjectControl>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <uc1:TaskControl ></uc1:TaskControl>
+            
+        </StackPanel>
+        
 
     </Grid>
 </Window>

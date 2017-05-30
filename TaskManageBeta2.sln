@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManageBeta2", "TaskMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProject", "DbProject\DbProject.csproj", "{5A62296D-EEC3-434B-B151-E0DE6EE3464B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{FD212F59-CA07-4394-B4CA-82A167C66BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A62296D-EEC3-434B-B151-E0DE6EE3464B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A62296D-EEC3-434B-B151-E0DE6EE3464B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A62296D-EEC3-434B-B151-E0DE6EE3464B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD212F59-CA07-4394-B4CA-82A167C66BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD212F59-CA07-4394-B4CA-82A167C66BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD212F59-CA07-4394-B4CA-82A167C66BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD212F59-CA07-4394-B4CA-82A167C66BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
